@@ -13,17 +13,13 @@
 	3. BUTTONS
 	4. HEADER
 	5. SLIDER
-	6. SERVICES
-	7. OUR WORKS
-	8. PRICING
-	9. ABOUT US
-	10. OUR TEAM
-	11. TESTIMONIAL
-	12. FUN FACTS
-	13. CONTACT
-	14. BLOG
-	15. FOOTER
-	16. SCROLL TO TOP
+	6. OUR WORKS
+	7. ABOUT US
+	8. MORE ABOUT ME
+	9. FUN FACTS
+	10. CONTACT
+	11. FOOTER
+	12. SCROLL TO TOP
 
 */
 
@@ -53,7 +49,7 @@
 	}
 
 	a { 
-		color: #000;
+		color: #ef9a9a;
 		-webkit-transition: all 0.2s ease-in-out;
 		-moz-transition: all 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out;
@@ -89,6 +85,10 @@
 		font-family: 'Raleway', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
+	}
+
+	.hello-world {
+		color: #ef9a9a;
 	}
 
 	input, textarea{
@@ -154,7 +154,7 @@
 	}
 
 	.btn-send:hover{
-		background-color: #000;
+		background-color: #ef9a9a;
 		color: #fff;
 	}
 
@@ -177,8 +177,6 @@
 		background-color: #000;
 		color: #fff;	
 	}
-
-
 
 
 /* 4. HEADER */
@@ -283,128 +281,8 @@
 		margin-bottom:20px;
 	}
 
-	.home-carousel-left, 
-	.home-carousel-right {	
-		background-color: #f0f0f0;
-		color:#000;
-		font-size: 32px;
-		height: 40px;
-		line-height: 40px;
-		margin-top: -20px;
-		position: absolute;
-		text-align: center;
-		top: 50%;
-		width: 32px;
-		z-index: 999;
-		-webkit-transition: 300ms;
-		-moz-transition: 300ms;
-		-o-transition: 300ms;
-		-ms-transition: 300ms;
-		transition: 300ms;
-	}
 
-	.home-carousel-left {
-		left:-32px;
-	}
-
-	.home-carousel-right {
-		right:-32px;
-	}
-
-	#home-carousel:hover .home-carousel-left {
-		left:0;
-	}
-
-	#home-carousel:hover .home-carousel-right {
-		right:0;
-	}
-	/* Carousel animation */
-
-	#home-carousel .item h1, 
-	#home-carousel .item h2, 
-	#home-carousel .item p {
-		opacity:0;
-		-moz-transform: scale(0.5);
-		-webkit-transform: scale(0.5);
-		-o-transform: scale(0.5);
-		-ms-transform: scale(0.5);
-		transform: scale(0.5);
-	}
-
-	#home-carousel .item h1 {
-		-webkit-transition: all 0.5s ease-in-out 0.15s;
-		-moz-transition: all 0.5s ease-in-out 0.15s;
-		-ms-transition: all 0.5s ease-in-out 0.15s;
-		-o-transition: all 0.5s ease-in-out 0.15s;
-		transition: all 0.5s ease-in-out 0.15s;
-	}
-
-	#home-carousel .item.active h1, 
-	#home-carousel .item.active h2, 
-	#home-carousel .item.active p {
-		opacity:1;
-		-moz-transform: scale(1);
-		-webkit-transform: scale(1);
-		-o-transform: scale(1);
-		-ms-transform: scale(1);
-		transform: scale(1);
-	}
-
-	#home-carousel .item h2 {
-		-webkit-transition: all 0.5s ease-in-out 0.30s;
-		-moz-transition: all 0.5s ease-in-out 0.30s;
-		-ms-transition: all 0.5s ease-in-out 0.30s;
-		-o-transition: all 0.5s ease-in-out 0.30s;
-		transition: all 0.5s ease-in-out 0.30s;
-	}
-
-	#home-carousel .item p {
-		-webkit-transition: all 0.5s ease-in-out 0.45s;
-		-moz-transition: all 0.5s ease-in-out 0.45s;
-		-ms-transition: all 0.5s ease-in-out 0.45s;
-		-o-transition: all 0.5s ease-in-out 0.45s;
-		transition: all 0.5s ease-in-out 0.45s;
-	}
-
-
-
-
-
-/* 6. SERVICES */
-
-	#services{
-		background-color: #f5f5f5;
-		padding-top: 130px;
-		padding-bottom: 120px;
-	}
-
-	.section-title{
-		margin-bottom: 50px;
-	}
-
-	.section-title h1{
-		margin-top: 0;
-	}
-
-	.st-service{
-		margin-top: 30px;
-	}
-
-	.st-service h2{
-		font-size: 16px;
-		margin-top: 0;
-		margin-bottom: 15px;
-	}
-
-	.st-service h2 i{
-		margin-right: 10px;
-	}
-
-	.st-service p{}
-
-
-
-/* 7. OUR WORKS */
+/* 6. MY PROJECTS */
 
 	.isotope-item {
 	    z-index: 2;
@@ -430,7 +308,7 @@
 
 	#our-works{
 		padding-top: 130px;
-		padding-bottom: 120px;
+		padding-bottom: 110px;
 	}
 
 	.portfolio-wrapper ul.filter{
@@ -454,7 +332,7 @@
 
 	.portfolio-wrapper ul.filter li a:hover,
 	.portfolio-wrapper ul.filter li a.active{
-		color: #000;
+		color: #ef9a9a;
 	}
 
 	.portfolio-wrapper .portfolio-items{
@@ -507,63 +385,7 @@
 
 
 
-/* 8. PRICING */
-	
-	#pricing{
-		background-color: #f5f5f5;
-		padding-top: 130px;
-		padding-bottom: 120px;
-	}
-
-	.st-pricing{
-		background-color: #fff;
-		padding: 40px;
-		margin-top: 30px;
-		-webkit-transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-ms-transition: all 0.2s ease-in-out;
-		-o-transition: all 0.2s ease-in-out;
-		transition: all 0.2s ease-in-out;
-	}
-
-	.st-pricing:hover{
-		box-shadow: 0px 0px 18px #ddd;
-	}
-
-	.st-pricing h5{
-		margin-top: 0;
-		margin-bottom: 25px;
-	}
-
-	.st-pricing h3{
-		margin-top: 0;
-		margin-bottom: 25px;
-	}
-
-	.st-pricing .st-border{
-		width: 100%;
-		margin-bottom: 15px;
-		background-color: #ccc;
-	}
-
-	.st-pricing ul{
-		list-style: none;
-		padding: 0;
-	}
-
-	.st-pricing ul li{
-		padding: 12px 0;
-		font-size: 15px;
-	}
-
-	.st-pricing a.btn-send{
-		text-transform: uppercase;
-		margin-top: 20px;
-		padding: 10px 25px;
-	}
-
-
-/* 9. ABOUT US */
+/* 7. ABOUT ME */
 	
 	#about-us{
 		background-color: #f5f5f5;
@@ -577,15 +399,11 @@
 
 	#about-us .about-us h4{
 		margin-top: 0;
-		margin-bottom: 30px;
+		margin-bottom: 25px;
 	}
 
 	#about-us .about-us .btn-send{
 		margin-top: 30px;
-	}
-
-	#about-us .our-office{
-		padding-right: 0px;
 	}
 
 	.office-carousel-left, 
@@ -630,7 +448,7 @@
 
 
 
-/* 10. OUR TEAM */
+/* 8. MORE ABOUT ME */
 
 	#our-team{
 		padding-top: 130px;
@@ -701,48 +519,10 @@
 	}
 
 
-
-/* 11. TESTIMONIAL */
-
-	#testimonial{
-		background-image: url(../images/testimonial-bg.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-attachment: fixed;
-		padding-top: 100px;
-		padding-bottom: 100px;
-		position: relative;
-	}
-
-	.st-testimonials{
-		color: #e0e0e0;
-	}
-
-	.st-testimonials .st-border{
-		background-color: #e0e0e0;
-		margin: 20px auto;
-	}
-
-	.st-testimonials p{
-		font-style: italic;
-	}
-
-	.st-testimonials .client-info h5{
-		margin-top: 0;
-		margin-bottom: 5px;
-	}
-
-	.st-testimonials .client-info span{
-		font-size: 12px;
-		text-transform: uppercase;
-	}
-
-
-
-/* 12. FUN FACTS */
+/* 9. FUN FACTS */
 	
 	#fun-facts{
-		background-color: #f5f5f5;
+		background-color: #ef9a9a;
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
@@ -765,7 +545,7 @@
 
 
 
-/* 13. CONTACT */
+/* 10. CONTACT */
 
 	#contact{
 		padding-top: 130px;
@@ -803,217 +583,7 @@
 	}
 
 
-
-/* 14. BLOG */
-	
-	#page-header{
-		background-color: #f5f5f5;
-		padding-top: 50px;
-		padding-bottom: 0px;
-		position: relative;
-		margin-bottom: 50px;
-		margin-top: 80px;
-	}
-
-	.single-blog{
-		margin-top: 35px;
-		margin-bottom: 35px;
-	}
-
-	.post-title{
-		margin-top: 20px;
-		margin-bottom: 5px;
-	}
-
-	.post-meta{
-		margin-bottom: 15px;
-	}
-
-	.post-meta span{
-		margin-right: 6px;
-		font-size: 12px;
-		font-weight: 600;
-		opacity: 0.6;
-	}
-
-	.post-meta span:hover{
-		opacity: 1;
-	}
-
-	.post-carousel-left, 
-	.post-carousel-right {	
-		background-color: #f0f0f0;
-		color:#000;
-		font-size: 32px;
-		height: 40px;
-		line-height: 40px;
-		margin-top: -20px;
-		position: absolute;
-		text-align: center;
-		top: 50%;
-		width: 32px;
-		z-index: 999;
-		-webkit-transition: 300ms;
-		-moz-transition: 300ms;
-		-o-transition: 300ms;
-		-ms-transition: 300ms;
-		transition: 300ms;
-	}
-
-	.post-carousel-left {
-		left:-32px;
-	}
-
-	.post-carousel-right {
-		right:-32px;
-	}
-
-	#post-carousel:hover .post-carousel-left {
-		left:0;
-	}
-
-	#post-carousel:hover .post-carousel-right {
-		right:0;
-	}
-
-	.post-link{
-		background-color: #f5f5f5;
-		text-align: center;
-		padding: 40px 0;
-		font-size: 16px;
-		font-weight: 600;
-	}
-
-	.post-quote{
-		background-color: #f5f5f5;
-		padding: 30px;
-		font-size: 16px;
-		font-weight: 500;
-		font-style: italic;
-	}
-
-	#blog .pagination{
-		margin-bottom: 80px;
-	}
-
-	#blog .pagination li a{
-		width: 35px;
-		height: 35px;
-		line-height: 31px;
-		text-align: center;
-		font-size: 16px;
-		color: #a3a3a3;
-		border: 1px solid #d1d1d1;
-		padding: 0;
-		margin-right: 5px;
-		border-radius: 0;
-	}
-
-	#blog .pagination li.active a,
-	#blog .pagination li a:hover{
-		background-color: transparent;
-		border-color: #000;
-		color: #000;
-	}
-
-	.sidebar-widget{
-		margin-top: 35px;
-		margin-bottom: 50px;
-	}
-
-	.sidebar-widget .sidebar-title{
-		margin-top: 0;
-		margin-bottom: 20px;
-	}
-
-	.sidebar-widget ul{
-		list-style: square;
-		margin: 0;
-		padding-left: 18px;
-	}
-
-	.sidebar-widget ul li{
-		margin-bottom: 10px;
-		font-weight: 500;
-	}
-
-	.blog-search{
-		position: relative;
-	}
-
-	.blog-search input {
-		border: 1px solid #d6d6d6;
-		color: #8d8d8d;
-		height: 44px;
-		outline: medium none;
-		padding: 0 50px 0 17px;
-		width: 100%;
-	}
-
-	.blog-search span {
-		color: #252525;
-		font-size: 12px;
-		position: absolute;
-		right: 10px;
-		top: 50%;
-		transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-webkit-transform: translateY(-50%);
-	}
-
-	.blog-search .search-submit {
-		background: none;
-		border: none;
-	}
-
-	.blog-search:after {
-		background-color: #d6d6d6;
-		content: "";
-		display: block;
-		height: 27px;
-		position: absolute;
-		right: 40px;
-		top: 50%;
-		transform: translateY(-50%);
-		-moz-transform: translateY(-50%);
-		-webkit-transform: translateY(-50%);
-		width: 1px;
-	}
-
-	.sidebar-widget .tagcloud a{
-		padding: 4px 10px;
-		border: 1px solid #ccc;
-		margin: 3px 1px;
-		display: inline-block;
-	}
-
-	.sidebar-widget .tagcloud a:hover{
-		border-color: #000;
-		color: #000;
-	}
-
-	ul.content-flickr {
-		margin: 0;
-		overflow: hidden;
-		padding: 0;
-	}
-
-	ul.content-flickr li {
-		display: block;
-		float: left;
-		padding: 5px 10px 5px 0;
-		width: 33.33%;
-	}
-
-	.content-flickr li a {
-		display: block;
-		position: relative;
-		width: 100%;
-	}
-
-
-
-/* 15. FOOTER */
+/* 11. FOOTER */
 
 	#footer{
 		background-color: #262626;
@@ -1043,7 +613,7 @@
 	}
 
 	
-/* 16. SCROLL TO TOP */
+/* 12. SCROLL TO TOP */
 
 	.scroll-up {
 		position: fixed;
@@ -1079,7 +649,7 @@
 	.scroll-up a:hover,
 	.scroll-up a:active {
 		background-color: #f5f5f5;
-		color: #000;
+		color: #ef9a9a;
 	}
 
 
