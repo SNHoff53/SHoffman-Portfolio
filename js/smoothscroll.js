@@ -205,6 +205,8 @@ function ssc_overflowingAncestor(e) {
     } while (e = e.parentNode)
 }
 
+var passiveSupported = false; 
+
 function ssc_addEvent(e, t, n) {
     window.addEventListener(e, t, n || false)
     (passiveSupported && (active || el == window.document || el == window.document.body || el == window)) ? el.addEventListener(name, fn, { passive: false, capture: bubble }) : el.addEventListener(name, fn, bubble || false);
