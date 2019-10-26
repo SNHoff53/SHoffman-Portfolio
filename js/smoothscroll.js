@@ -212,7 +212,6 @@ function ssc_addEvent(e, t, n) {
     (passiveSupported && (active || el == window.document || el == window.document.body || el == window)) ? el.addEventListener(name, fn, { passive: false, capture: bubble }) : el.addEventListener(name, fn, bubble || false);
 }
 
-
 function ssc_removeEvent(e, t, n) {
     window.removeEventListener(e, t, n || false)
 }
